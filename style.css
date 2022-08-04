@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/resbg.jpg);
+   background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 80px;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  transition: 1s;
+}
+
+.nav-links ul li a:hover {
+  color: #FF869E;
+  border-bottom: 1px solid #54BAB9;
+  animation: 0.5s 1s ease-in rgb(94, 209, 117);
+}
+
+.btn {
+  display:grid;
+  place-items:center;
+  margin-top: 225px;
+  margin-left: -40px;
+}
+
+
+
+.first-btn {
+  font-size: 15px;
+  font-weight: bold;
+  background-color:transparent;
+  border: 1px solid #CBF1F5;
+  padding: 10px;
+  color: #FDF6F0;
+}
+
+.head-1 {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 650px;
+  font-size: 80px;
+  font-weight: bolder;
+  color: #fff;
+      font-family: 'The Nautigal', cursive;
+}
+
+.head-1:hover {
+  color: #9896F1 !important;
+}
+
+.para-1 {
+  text-align: justify;
+    font-size: 50px;
+  margin-left: 355px;
+  margin-right: 300px;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #54BAB9;
+
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: transparent;
+  border: 2px solid #FCF8E8;
+  margin-left: -25px;
+   font-size: 30px;
+   padding: 10px;
+   transition: 5s;
+}
+
+.btn:hover {
+  background-color: #94DAFF;
+  border-radius: 50px;
+}
+
+
+.anchar {
+  text-decoration: none;
+  color: #EFFFFD;
+  transition: 5s;
+}
+
+.anchar:hover {
+  color: #F7F7F7;
+}
+
+
+
+
+
+
+
+
+
+
+

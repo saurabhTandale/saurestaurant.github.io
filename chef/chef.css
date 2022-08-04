@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+}
+
+body {
+ font-family: 'Poppins', sans-serif;
+    animation: just 10s  linear infinite;
+}
+
+@keyframes just {
+   0% {
+    background-color: #FFF9CA;
+   }
+
+   25%{
+    background-color: #94B49F;
+   }
+
+   50%{
+    background-color: #ECB390;
+   }
+
+   75%{
+    background-color: #B2C8DF;
+   }
+
+   100%{
+    background-color: #FFC3C3;
+   }
+}
+
+
+.heading-1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #371B58;
+   font-family: 'Great Vibes', cursive;
+   transition: 2s;
+}
+
+.heading-1:hover {
+  color: #A05344;
+}
+
+
+.container {
+  display: inline-block;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.image {
+  width: 600px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.image-last {
+   width: 600px;
+  margin-left: 450px;
+  margin-bottom: 20px;
+  transition: 2s;
+}
+
+.image-last:hover{
+    border-radius: 50px;
+  box-shadow: 2px 4px 8px #03C4A1;
+}
+
+.image:hover {
+  border-radius: 50px;
+  box-shadow: 2px 4px 8px #03C4A1;
+
+}
+
+.head-1 {
+  display: inline-flex;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3D0000;
+  margin-left: 225px;
+  border-radius: 10px;
+}
+
+.head-2 {
+    display: inline-flex;
+  font-size: 25px;
+  font-weight: bold;
+  color: #3D0000;
+  margin-left:650px ;
+  border-radius: 10px;
+}
+
+

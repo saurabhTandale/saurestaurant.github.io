@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    animation: bg 10s  linear infinite;
+}
+
+@keyframes bg {
+   0% {
+    background-color: #FFF9CA;
+   }
+
+   25%{
+    background-color: #94B49F;
+   }
+
+   50%{
+    background-color: #ECB390;
+  }
+
+   75%{
+    background-color: #B2C8DF;
+   }
+
+   100%{
+    background-color: #FFC3C3;
+   }
+}
+
+.heading {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  margin-top: 10px;
+  font-family: 'Great Vibes', cursive;
+  color: #BBE1FA;
+  transition: 2s;
+}
+
+.heading:hover {
+  color: #3E065F;
+}
+
+
+.peoples_review {
+  font-size: 38px;
+  text-align: center;
+  color: #26001B;
+  transition: 3s;
+}
+
+.peoples_review:hover {
+   color: #00263B;
+   
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-1 {
+  width: 500px;
+  height: 300px;
+  background-color: #FFF2F2;
+  margin: 10px;
+  margin-top: 100px;
+  transition: 3s;
+}
+
+.box-1:hover {
+  box-shadow: 2px 4px 8px #3D0000;
+}
+
+.box-2 {
+  width: 500px;
+  height: 300px;
+  background-color: #FFF2F2;
+  margin: 10px;
+   margin-top: 100px;
+   transition: 3s;
+}
+
+.box-2:hover {
+  box-shadow: 2px 4px 8px #3D0000;
+}
+
+.box-3 {
+  width: 500px;
+  height: 300px;
+  background-color:#FFF2F2;
+  margin: 10px;
+   margin-top: 100px;
+   transition: 3s;
+}
+
+.box-3:hover {
+  box-shadow: 2px 4px 8px #3D0000;
+}
+
+.first {
+  text-align: center;
+  font-size: 20px;
+  color: #AD8B73;
+  margin-top: 10px;
+}
+
+.para {
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #7F8487;
+  margin-bottom: 50px;
+}
+
+.click {
+  font-size: 25px;
+  margin-left: 165px;
+}
+
+.review {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-first {
+  text-align: center;
+  font-size: 35px;
+  color: #548CFF;
+  margin-top: 20px;
+}
+
+.input-box {
+  display: block;
+  font-size: 20px;
+  margin-left: 660px;
+  margin-top: 30px;
+  padding: 5px;
+  text-align: center;
+    background-color: transparent;
+  color: #000D6B;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-1 {
+  text-align: center;
+  font-size: 15px;
+  color: #E4FBFF;
+  margin-top: 20px;
+  background-color: transparent;
+}
+
+.anchar {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px;
+  transition: 5s;
+}
+
+.anchar:hover {
+  color: #BD2000;
+}
